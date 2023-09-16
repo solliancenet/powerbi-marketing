@@ -1,0 +1,14 @@
+- Full delivery - Organizations that use Excel, SharePoint, and LOB applications for BI solutions.
+  - Migrate to a centralized cloud data warehouse or data lakehouse solution.
+    - Scalable, high performance
+    - Secure
+    - Automation, workflows
+    - Monitoring
+  - Migrate the organization's data serving platform to a reliable cloud-based solution.
+- Enhance existing Power BI environment
+  - Environment assessment. Understand which datasets and reports are being utilized the most and by whom.
+  - Develop a Power BI DevOps process for report development and deployment
+  - Identify areas of security concerns
+  - Identify current and upcoming data operation issues
+  - Optimize key reports for better performance and visualizations. Tell a more effective data story. Allow users to gain insights and take actions faster. Fix report design problems holding back users.
+  - Develop and measure data governance policies.
