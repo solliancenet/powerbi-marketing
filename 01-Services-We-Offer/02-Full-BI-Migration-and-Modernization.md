@@ -2,13 +2,13 @@
 
 Solliance will partner with your organization to implement your end-to-end BI solution. Whether your data lives in Excel spreadsheets, SaaS, or enterprise cloud database providers, we can customize an architecture to migrate/integrate your data into a high performance data serving layer.
 
-Great reports require current data and need to be enhanced to answer new business questions. Your business environment keeps changing and so will your reporting needs. Users need to realize important facts quickly and explore the data for new or hidden insights.
+Great reports require current data and need to be enhanced to answer current and new business questions. Your business environment keeps changing and so will your reporting needs. Users need to realize important facts quickly and explore the data to answer new business questions and hidden insights.
 
 ## Migrate from Excel to Power BI
 
 Ready to migrate from Excel to Power BI reports? It depends on your needs. How much data are you processing and what are you report collaboration needs? Excel allows for great dataset definition flexibility and proof of concept (POC) modeling. Once your POC model is complete, consider migrating the data model and visualizations to a scalable BI platform like Power BI.
 
-As dataset sizes grow and collaboration needs evolve, Power BI can process your data quickly and share reports securely. Processing larger more complex data is no longer constrained by a user's desktop hardware. Automated data refresh schedules make it easy to configure refresh schedules to match your company's needs. Avoid the manual steps for report distribution and collaboration. Free your resources from repetitive low value tasks.
+As dataset sizes grow and collaboration needs evolve, Power BI can process your data quickly and share reports securely. Processing larger more complex data is no longer constrained by a user's desktop hardware. Automated data refresh schedules make it easy to configure refresh schedules to match your company's needs. Avoid the manual steps for report distribution and collaboration. Free your resources from repetitive low value copy-paste tasks.
 
 Solliance will migrate your key spreadsheets into central data serving repository using a modern automated workflow. Your report users will have valid fresh data all the time without executing manual tasks.
 
