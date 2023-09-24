@@ -1,6 +1,6 @@
 # Migrate to a modern BI platform
 
-Solliance will partner with your organization to implement your end-to-end BI solution. Whether your data lives in Excel spreadsheets, SaaS, or enterprise cloud database providers, we can customize an architecture to migrate/integrate your data into a high performance data serving layer.
+Solliance will partner with your organization to implement your end-to-end BI solution. Whether your data lives in Excel spreadsheets, a SaaS environment, or enterprise cloud database providers, we can customize an architecture to migrate/integrate your data into a high performance data serving layer.
 
 Great reports require current data and need to be enhanced to answer current and new business questions. Your business environment keeps changing and so will your reporting needs. Users need to realize important facts quickly and explore the data to answer new business questions and hidden insights.
 

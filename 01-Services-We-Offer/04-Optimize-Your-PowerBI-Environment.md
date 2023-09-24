@@ -2,7 +2,7 @@
 
 Are some of your reports slow? Are you spending more money than you need to for cloud services? Viewing reports and performing data analysis can be frustrating to users when the platform performance is slow. User adoption can suffer due to easily identifiable fixable environment and modeling problems. Determining performance bottlenecks and data governance issues in a complex system can take a long time. Solliance has built tools and leverages Microsoft services to identify performance and governance problems across the entire Power BI tenant. You will be able to spot key areas of concern and reports that require additional investigation.
 
-Administrators can easily spot divergent data policy behaviors and address them sooner before they become costly organization mistakes. Data driven conversations about Power BI resource usage are now possible with developers and leadership. Administrators can develop usage profiles and performance trend analysis proactively instead of waiting for community complaints and environment outages. Cloud provider budgets can be more accurate based on a current and projected usage profile.
+Administrators can easily spot divergent data policy behaviors and address them sooner before they become costly organizational mistakes. Data driven conversations about Power BI resource usage are now possible with developers and leadership. Administrators can develop usage profiles and performance trend analysis proactively instead of waiting for community complaints and environment outages. Cloud provider budgets can be more accurate based on a current and projected usage profile.
 
 ## Assessment steps
 

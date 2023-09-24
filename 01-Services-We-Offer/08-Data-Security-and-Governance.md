@@ -1,6 +1,6 @@
 # Data Security
 
-Do you know where your data comes from, how it is evolving, and who is accessing it?
+Do you know where your data comes from, how it is evolving, and who is accessing it? Are there restrictions on how it should be shared?
 
 Solliance can help you craft governance and data policy that allows your team the freedom to create business reports while adhering the organization's data security policy.
 

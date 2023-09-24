@@ -1,6 +1,6 @@
 # Ask an Expert
 
-Solliance wants to make sure our clients can create their own reports and manage their Power BI and Azure environment. We will provide end of project documentation and training materials to make sure you have the necessary materials for continued success. Our assistance does not end here.
+Solliance wants to make sure our clients can create their own reports and manage their Power BI and Azure environment. We will provide end of project documentation and training materials to make sure you have the necessary materials for continued success. Our assistance does not end there.
 
 We offer on-site and remote Power BI/Azure training opportunities.
 
