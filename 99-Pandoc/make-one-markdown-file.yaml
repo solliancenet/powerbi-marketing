@@ -1,0 +1,74 @@
+
+# Instructions for a Windows machine.  If you are running a Mac OS or Linux, you do not need do this.
+# You need to create one markdown file from the directory tree from markdown files.
+
+# Pre-Pandoc clean up.
+# Remove all of the 'en-us' references in the URLs.
+# Run spell-check and fix MD formatting issues. 
+
+# Step 1
+# Navigate to the media folder.  Delete all of the media files.  rem DEL /F/Q *.*
+# Run the Windows command below in the content base directory to produce a list of file paths to the markdown documents. 
+# EXAMPLE:  dir *.md /S /B /O N>./pandoc/markdown-files.txt
+# Open the text file and paste the contents into this yaml file in the input-files section.
+# You will need to add a prefix of "- " before each of the file paths. Open VS Code and add these
+# characters by placing the cursor in front and holding down CTRL, ALT.  Use the down arrow
+# key to highlight all of the lines at once.
+
+# The current version of Pandoc does not like including the media from a directory tree on Windows.
+# On a Windows machine, copy the media to one media folder with this DOS command. 
+
+# Step 2
+# cd pandoc
+# del .\media\*.png /Q
+# del .\temp\media\*.png /Q
+# cd ..
+# EXAMPLE: for /r %i in (*.png) do xcopy /Y "%i" .\pandoc\media
+# Your image file names need to be unique.
+# Take the contents in the markdown-file.txt and paste it into the 'input-files'
+
+# Step 3
+# Run this command with the defaults.yaml file in the pandoc directory.
+# cd pandoc
+# EXAMPLE:  pandoc --defaults=make-one-markdown-file
+# xcopy .\media\*.png .\temp\media /Y
+# xcopy .\*.md .\temp /Y
+
+from: markdown+pipe_tables+backtick_code_blocks
+to: markdown+pipe_tables
+output-file: guide.md
+dpi: 300
+ 
+input-files:
+ 
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\00-Perspective-Client-Personas.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\01-Overview.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\02-Full-BI-Migration-and-Modernization.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\03-Data-Modeling.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\03-Report-Development.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\03-Training-Ask-An-Expert.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\04-Optimize-Your-PowerBI-Environment.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\05-Embedded-Reports.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\06-Data-Driven-Alerts.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\07-Copilot.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\08-Data-Security-and-Governance.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\01-Services-We-Offer\09-Big-Data-Processing.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\02-Methodology\02-Overview.md
+- C:\data\projects\powerbi\Marketing\powerbi-marketing\03-Data-Integrations\03-Overview.md
+
+# ERROR, WARNING, or INFO
+verbosity: INFO
+log-file: log.json
+
+table-of-contents: true
+toc-depth: 2
+
+# reference-links: true
+tab-stop: 4
+preserve-tabs: true
+default-image-extension: ".png"
+# shift-heading-level-by: 1
+section-divs: true
+highlight-style: tango
+atx-headers: true
+#reference-links: true

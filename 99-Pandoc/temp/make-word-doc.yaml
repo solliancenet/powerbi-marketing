@@ -1,0 +1,33 @@
+
+# Instructions
+# Run the Windows command below in the content directory to produce a list of file paths to the markdown documents. 
+# EXAMPLE:  dir *.md /S /B /O N>markdown-files.txt
+# Take the contents in the markdown-file.txt and paste it into the 'input-files'
+# Run this command with the defaults.yaml file in the same directory.
+# EXAMPLE:  pandoc --defaults=make-word-doc
+# To create a reference.docx - pandoc -o reference.docx --data-dir="D:\mcw_temp\Redis-guide\pandoc\temp" --print-default-data-file sample.docx
+from: markdown+backtick_code_blocks
+to: docx+styles
+output-file: report-development-guide.docx
+dpi: 300
+data-dir: .\pandoc\temp
+reference-doc: sample-reference.docx
+input-files:
+ - .\report-development-guide.md   
+
+# ERROR, WARNING, or INFO
+verbosity: INFO
+log-file: log.json
+
+table-of-contents: true
+toc-depth: 2
+
+reference-links: true
+reference-location: document
+tab-stop: 4
+preserve-tabs: true
+default-image-extension: ".png"
+# shift-heading-level-by: 1
+section-divs: true
+highlight-style: tango
+atx-headers: true

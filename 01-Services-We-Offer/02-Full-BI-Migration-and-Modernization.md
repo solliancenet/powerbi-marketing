@@ -6,11 +6,11 @@ Great reports require current data and need to be enhanced to answer current and
 
 ## Migrate from Excel to Power BI
 
-Ready to migrate from Excel to Power BI reports? It depends on your needs. How much data are you processing and what are you report collaboration needs? Excel allows for great dataset definition flexibility and proof of concept (POC) modeling. Once your POC model is complete, consider migrating the data model and visualizations to a scalable BI platform like Power BI.
+Ready to migrate from Excel to Power BI reports? It depends on your needs. How much data are you processing and what are you report collaboration needs? Excel allows for great dataset definition flexibility, data exploration, and proof of concept (POC) modeling. Once your POC model is complete, consider migrating the data model and visualizations to a scalable BI platform like Power BI.
 
 As dataset sizes grow and collaboration needs evolve, Power BI can process your data quickly and share reports securely. Processing larger more complex data is no longer constrained by a user's desktop hardware. Automated data refresh schedules make it easy to configure refresh schedules to match your company's needs. Avoid the manual steps for report distribution and collaboration. Free your resources from repetitive low value copy-paste tasks.
 
-Solliance will migrate your key spreadsheets into central data serving repository using a modern automated workflow. Your report users will have valid fresh data all the time without executing manual tasks.
+Solliance will migrate your key spreadsheets and data processing into central data serving repository using a modern automated workflow. Your report users will have valid fresh data all the time without executing manual tasks. Power BI's Vertipaq engine provides fast data processing allowing for high performant visualization rendering.
 
 ## Centralize your data and calculations into a single source of truth
 
